@@ -9,10 +9,6 @@ __pycache__/
 # VS Code
 .vscode/
 
-# PyTorch models
-*.pth
-*.pt
-
 
 # OS
 .DS_Store
