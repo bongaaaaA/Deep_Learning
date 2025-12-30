@@ -1,0 +1,92 @@
+# Movie Review Sentiment Analysis using LSTM (PyTorch)
+
+This repository contains a **complete deep learning project** for text sentiment classification using **LSTM (Long Short-Term Memory)** with PyTorch.  
+The model is trained to classify movie reviews into **Positive** or **Negative** sentiment.
+
+---
+
+## 📌 Table of Contents
+
+- 🧠 Project Overview  
+- 📥 Dataset  
+- 🗂️ Notebook Structure  
+- 🛠️ How It Works  
+- 🚀 Training the Model  
+- 📊 Evaluation  
+- 📦 Technologies Used  
+- 👨‍💻 Author
+
+---
+
+## 🧠 Project Overview
+
+This notebook (`movie_review_Lstm_pytorch.ipynb`) demonstrates a full **NLP deep learning pipeline** using PyTorch:
+
+1. Data loading and exploration  
+2. Text preprocessing & tokenization  
+3. Vocabulary building  
+4. Padding & sequence conversion  
+5. LSTM model implementation  
+6. Model training  
+7. Model evaluation and prediction
+
+---
+
+## 📥 Dataset
+
+The dataset used in this notebook is the **IMDB Movie Reviews** dataset:
+
+- 50,000 movie reviews  
+- Labels: “positive” and “negative” sentiment  
+- Great for binary text classification tasks
+
+Download the dataset from Kaggle and place it in your working directory (e.g., `data/IMDB Dataset.csv`):
+
+🔗 https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
+
+---
+
+## 📓 Notebook Structure
+
+The notebook is organized into the following sections:
+
+### 1. **Import Dependencies**
+Imports essential libraries such as PyTorch, pandas, numpy, etc.
+
+### 2. **Load & Inspect Data**
+Load the CSV dataset and check sample rows & data shape.
+
+### 3. **Preprocess Text**
+- Clean text (lowercase, remove non-letters)
+- Vocabulary building
+- Tokenization
+- Sequence padding
+
+### 4. **Build LSTM Model**
+Defines an LSTM neural network class using PyTorch.
+
+### 5. **Train the Model**
+Creates DataLoader and optimizer, trains over multiple epochs.
+
+### 6. **Evaluation**
+Shows sample predictions and evaluates model performance.
+
+---
+
+## 🧠 How It Works (High Level)
+
+```python
+# 1) Clean text -> remove special characters
+cleaned = clean_text(raw_text)
+
+# 2) Build vocabulary
+vocab = build_vocab(all_reviews)
+
+# 3) Convert text to sequence
+seq = text_to_sequence(cleaned, vocab)
+
+# 4) Pad sequence to fixed length
+
+# 5) Model input -> LSTM model
+output = model(sequence_batch)
+
