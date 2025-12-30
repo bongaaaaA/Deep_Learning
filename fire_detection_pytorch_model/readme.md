@@ -39,3 +39,7 @@ The goal of this project is to build a **robust CNN model** capable of classifyi
 ## 📂 Project RunTime 
 
 
+https://github.com/user-attachments/assets/f51fa567-c312-47ba-8f53-4e8bfd31df68
+
+
+
