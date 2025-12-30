@@ -19,3 +19,4 @@ fire_dataset/
 # OS
 .DS_Store
 Thumbs.db
+.venv2/
