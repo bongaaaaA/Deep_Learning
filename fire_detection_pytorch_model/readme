@@ -1,0 +1,41 @@
+# 🔥 Fire Detection Using Deep Learning (PyTorch)
+
+A deep learning–based project for **automatic fire detection from images** using **Convolutional Neural Networks (CNNs)** implemented with **PyTorch**.
+
+This project demonstrates a complete deep learning pipeline including:
+- Dataset preparation  
+- Model training  
+- Evaluation  
+- Inference on new images  
+- detection fire or no fire 
+
+---
+
+## 📌 Project Overview
+
+Fire detection is a critical task for many real-world applications such as:
+- Forest fire monitoring  
+- Industrial safety systems  
+- Smart surveillance  
+
+The goal of this project is to build a **robust CNN model** capable of classifying images into:
+-  Fire  
+-  No Fire  
+
+---
+
+## 🧠 Model Details
+
+- Framework: **  PyTorch , opencv , FastApi , pandas , numpy , Pillow Image , tqdm ** ,
+- Model Type: **Custom CNN**
+- Input: RGB Images
+- Output: Binary Classification (Fire / No Fire)
+- Loss Function: Cross Entropy Loss
+- Optimizer: Adam
+- Hardware Support: CPU / GPU (CUDA)
+
+---
+
+## 📂 Project RunTime 
+
+
