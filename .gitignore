@@ -13,8 +13,6 @@ __pycache__/
 *.pth
 *.pt
 
-# Datasets
-fire_dataset/
 
 # OS
 .DS_Store
